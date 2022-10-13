@@ -1049,4 +1049,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .img-responsive{
+        width: 382px;
+        height: 360px;
+    }
 }
