@@ -17,6 +17,13 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+.agence {
+    text-align: center;
+    font-size:x-large;
+}
+.nameagence{
+   font-size: large; 
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -90,10 +97,7 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -119,6 +123,7 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
+
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -133,7 +138,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -639,13 +644,10 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
-h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -678,17 +680,19 @@ a {
 
 p {
     font-size: 11px;
+    font-family: "helvetica";
+    font-weight: 400;
 }
 
+.grey{
+    color: #575757!important; 
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
+
 
 .cta-hero {
     margin-top: 22px;
@@ -704,27 +708,26 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+.text-center{
+    text-align: center;
 }
-
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    font-size: medium;
+    color: #575757!important;
 }
-
+h5{
+    color: black;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
+
 
 h4 {
     color: #333333!important;
@@ -737,8 +740,16 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: medium;
 }
-
+.bold{
+    font-weight: bold;
+}
+.black{
+    font-size: medium;
+    color: black;
+    
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -775,12 +786,18 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
+.tc-black{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "helvetica";
+}
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -810,7 +827,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 .bg-lines-h2-bg {
@@ -848,13 +865,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,10 +889,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+   
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +898,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
