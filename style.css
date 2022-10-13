@@ -19,7 +19,7 @@ a:hover {
 }
 .agence {
     text-align: center;
-    font-size:x-large;
+    font-size:large;
 }
 .nameagence{
    font-size: large; 
@@ -712,10 +712,9 @@ p {
     text-align: center;
 }
 h2 {
-    font-size: 15px;
+    text-align: center;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: medium;
     color: #575757!important;
 }
 h5{
@@ -907,7 +906,6 @@ h4 {
         position: relative;
     }
     h1,
-    h2,
     h3,
     h4,
     h5,

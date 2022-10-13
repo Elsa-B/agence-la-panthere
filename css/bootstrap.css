@@ -1436,8 +1436,8 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
-    height: auto
+    width: 380px;
+    height: 380px
 }
 
 .img-rounded {
@@ -2011,8 +2011,7 @@ pre code {
 }
 
 .row {
-    margin-right: -15px;
-    margin-left: -15px
+    margin: 20px
 }
 
 .col-lg-1,
@@ -4248,9 +4247,6 @@ input[type=submit].btn-block {
     opacity: 1
 }
 
-.collapse {
-    display: none
-}
 
 .collapse.in {
     display: block
